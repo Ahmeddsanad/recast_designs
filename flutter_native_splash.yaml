@@ -1,0 +1,9 @@
+flutter_native_splash:
+  #IOS and Android BELOW 12 ( API 31 - ANDROID 12)
+  color: "#000000"
+  image: assets/app/RECAST_DESIGNS.png
+
+  android_12:
+    # For Android 12 (API 31) and above.
+    color: "#000000"
+    image: assets/app/RECAST_DESIGNS.png
