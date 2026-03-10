@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:recast_designs/core/routing/router.dart';
+import 'package:recast_designs/features/food_details/presentation/views/food_details_screen.dart';
 import 'package:recast_designs/features/home/presentation/views/home_screen.dart';
 
 class AppRouter {
@@ -12,6 +13,8 @@ class AppRouter {
     switch (settings.name) {
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
+      case Routes.foodDetailsScreen:
+        return MaterialPageRoute(builder: (_) => const FoodDetailsScreen());
 
       default:
         return MaterialPageRoute(

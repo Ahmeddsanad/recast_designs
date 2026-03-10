@@ -12,6 +12,7 @@ class FoodMenuCard extends StatelessWidget {
   final String title;
   final String price;
   final bool isTrending;
+  final void Function()? onTap;
 
   const FoodMenuCard({
     super.key,
@@ -20,28 +21,32 @@ class FoodMenuCard extends StatelessWidget {
     required this.title,
     required this.price,
     this.isTrending = false,
+    this.onTap,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: height,
-      width: double.infinity,
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(10.r)),
-      clipBehavior: Clip.antiAlias,
-      child: Stack(
-        fit: StackFit.expand,
-        children: [
-          FoodMenuBackgroundImage(imagePath: imagePath, height: height),
-          Positioned(
-            bottom: 8.h,
-            left: 8.w,
-            right: 4.w,
-            child: FoodMenuCardTitleWithPrice(title: title, price: price),
-          ),
-          if (isTrending)
-            Positioned(top: 6.h, left: 6.w, child: TrendingContainer()),
-        ],
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        height: height,
+        width: double.infinity,
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(10.r)),
+        clipBehavior: Clip.antiAlias,
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            FoodMenuBackgroundImage(imagePath: imagePath, height: height),
+            Positioned(
+              bottom: 8.h,
+              left: 8.w,
+              right: 4.w,
+              child: FoodMenuCardTitleWithPrice(title: title, price: price),
+            ),
+            if (isTrending)
+              Positioned(top: 6.h, left: 6.w, child: TrendingContainer()),
+          ],
+        ),
       ),
     );
   }
