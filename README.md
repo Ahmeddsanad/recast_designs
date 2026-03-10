@@ -140,3 +140,13 @@ dart run flutter_native_splash:create
 # Run the app
 flutter run
 ```
+
+---
+
+## 🧪 Testing & Performance
+
+> The app was tested on a physical device using Flutter profile mode to ensure realistic performance.
+
+```bash
+flutter run --profile
+```
