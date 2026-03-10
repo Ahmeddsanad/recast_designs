@@ -1,9 +1,7 @@
-// ignore_for_file: unused_local_variable
-
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:recast_designs/core/routing/router.dart';
 import 'package:recast_designs/features/food_details/presentation/views/food_details_screen.dart';
+import 'package:recast_designs/features/home/domain/models/food_menu.dart';
 import 'package:recast_designs/features/home/presentation/views/home_screen.dart';
 
 class AppRouter {
@@ -14,7 +12,10 @@ class AppRouter {
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       case Routes.foodDetailsScreen:
-        return MaterialPageRoute(builder: (_) => const FoodDetailsScreen());
+        final foodMenu = arguments as FoodMenu;
+        return MaterialPageRoute(
+          builder: (_) => FoodDetailsScreen(foodMenu: foodMenu),
+        );
 
       default:
         return MaterialPageRoute(

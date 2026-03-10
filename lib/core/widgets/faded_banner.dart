@@ -1,4 +1,7 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:recast_designs/core/constants/app_assets.dart';
 import 'package:recast_designs/core/constants/app_colors.dart';
 
@@ -13,7 +16,7 @@ class FadedBanner extends StatelessWidget {
       children: [
         Image.asset(
           imagePath,
-          height: 420,
+          height: 350.h,
           width: double.infinity,
           fit: BoxFit.cover,
         ),

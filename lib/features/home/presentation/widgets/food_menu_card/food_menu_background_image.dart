@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -26,7 +28,7 @@ class FoodMenuBackgroundImage extends StatelessWidget {
           height: height * 0.31,
           child: ClipRect(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 1, sigmaY: 1),
+              filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
               child: Container(color: Colors.transparent),
             ),
           ),
@@ -62,7 +64,7 @@ class FoodMenuBackgroundImage extends StatelessWidget {
           left: 0,
           right: 0,
           bottom: 0,
-          height: height * 0.31,
+          height: height * 0.45,
           child: Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(

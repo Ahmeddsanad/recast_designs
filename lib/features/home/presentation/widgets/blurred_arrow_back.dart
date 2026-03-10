@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
@@ -15,13 +17,15 @@ class BlurredArrowBack extends StatelessWidget {
       width: 48.w,
       height: 48.h,
       decoration: BoxDecoration(
-        color: AppColors.black.withOpacity(0.4),
         borderRadius: BorderRadius.circular(25.r),
-        border: Border.all(color: AppColors.black.withOpacity(0.4), width: 1.w),
+        border: Border.all(
+          color: AppColors.black.withOpacity(0.4),
+          width: 1.4.w,
+        ),
         boxShadow: [
           BoxShadow(
-            blurStyle: BlurStyle.outer,
-            blurRadius: 4,
+            color: AppColors.black.withOpacity(0.45),
+            blurRadius: 3,
             offset: const Offset(0, 0),
           ),
         ],
