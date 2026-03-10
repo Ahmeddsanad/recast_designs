@@ -3,7 +3,7 @@
 # Recast Designs
 
 <!-- App Icon -->
-<img src="assets/app/RECAST_DESIGNS.png" alt="Recast Designs App Icon" width="32" height="32" style="border-radius: 24px;" />
+<img src="assets/app/RECAST_DESIGNS.png" alt="Recast Designs App Icon" width="120" height="120" style="border-radius: 24px;" />
 
 ### A premium Flutter restaurant UI experience
 
@@ -19,7 +19,7 @@
 ## 📱 Splash Screen
 
 <!-- Replace with your splash screen screenshot -->
-> <img width="1320" height="2868" alt="image" src="https://github.com/user-attachments/assets/7acc2e4a-6b2b-4741-bd66-b39e06d9b1d0" />
+> <img width="630" height="1434" alt="image" src="https://github.com/user-attachments/assets/7acc2e4a-6b2b-4741-bd66-b39e06d9b1d0" />
 
 
 ---
@@ -27,12 +27,9 @@
 ## 🎥 App Demo
 
 <!-- Replace the path below with your actual screen recording -->
-> 🎬 _Add screen recording / GIF here_
->
-> **To embed a video recording:**
-> 1. Record your screen (QuickTime on Mac or `flutter screenshot`)
-> 2. Convert to GIF using [Gifski](https://gif.ski) or [ezgif.com](https://ezgif.com)
-> 3. Replace this block with: `![Demo](assets/demo/demo.gif)`
+
+https://github.com/user-attachments/assets/9c8ffd0a-bec7-4c95-9bf6-c690911368ae
+
 
 ---
 
