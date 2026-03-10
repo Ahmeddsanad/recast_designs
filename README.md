@@ -19,7 +19,7 @@
 ## 📱 Splash Screen
 
 <!-- Replace with your splash screen screenshot -->
-> <img width="440" height="956" alt="image" src="https://github.com/user-attachments/assets/7acc2e4a-6b2b-4741-bd66-b39e06d9b1d0" />
+> <img width="264" height="574" alt="image" src="https://github.com/user-attachments/assets/7acc2e4a-6b2b-4741-bd66-b39e06d9b1d0" />
 
 
 ---
