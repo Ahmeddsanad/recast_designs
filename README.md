@@ -16,6 +16,14 @@
 
 ---
 
+## App Logo
+
+<!-- Replace with your splash screen screenshot -->
+![3E309691-B9A3-4763-A26F-5129FFED0D80_4_5005_c](https://github.com/user-attachments/assets/65c2a578-860a-49ed-8b76-171239a2eb69)
+
+
+---
+
 ## 📱 Splash Screen
 
 <!-- Replace with your splash screen screenshot -->
