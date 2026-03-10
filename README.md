@@ -84,12 +84,13 @@ lib/
     │       │   └── home_screen.dart   # Main home screen
     │       │
     │       └── widgets/
-    │           ├── blurred_arrow_back.dart            # Frosted back button
-    │           ├── small_subtitle_with_gradient_title.dart  # Section headers
-    │           ├── food_menu_card.dart                # Grid card entry point
+    │           ├── small_subtitle_with_gradient_title.dart  # Section headers (subtitle + gold title)
+    │           ├── atmosphere_content.dart                  # "Atmosphere" section (title + horizontal image list)
+    │           ├── food_menu_cards.dart                     # Food menu staggered grid (2-column layout)
+    │           ├── food_menu_card.dart                      # Individual food card (image, blur, title, price)
     │           └── food_menu_card/
-    │               ├── food_menu_background_image.dart  # Card image + blur layers
-    │               ├── food_menu_title_with_price.dart  # Title & price badge
+    │               ├── food_menu_background_image.dart  # Card image + progressive blur layers
+    │               ├── food_menu_title_with_price.dart  # Title & price badge overlay
     │               └── trending_container.dart          # "Trending" label badge
     │
     └── food_details/                  # Food detail screen feature
@@ -104,7 +105,7 @@ lib/
             │   └── food_details_screen.dart  # Detail screen (StatelessWidget + BlocProvider)
             │
             └── widgets/
-                ├── add_to_order_overlay.dart             # Full-page animated cart overlay
+                ├── add_to_order_overlay.dart             # ✨ Additional (not in Figma) — full-page animated cart overlay triggered on "Add To Order" tap
                 ├── food_details_bottom_navigation_bar.dart # Price + animated Add To Order button
                 ├── food_details_info.dart                 # Category / title / description section
                 └── preparation_container.dart             # Prep info pill chips
