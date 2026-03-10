@@ -24,15 +24,16 @@ class HomeScreen extends StatelessWidget {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: Colors.white,
-        systemNavigationBarDividerColor: Colors.white,
-        systemNavigationBarIconBrightness: Brightness.light,
-        systemNavigationBarContrastEnforced: true,
-        systemStatusBarContrastEnforced: true,
+        // systemNavigationBarColor: Colors.white,
+        // systemNavigationBarDividerColor: Colors.white,
+        // systemNavigationBarIconBrightness: Brightness.light,
+        // systemNavigationBarContrastEnforced: true,
+        // systemStatusBarContrastEnforced: true,
       ),
       child: Scaffold(
         backgroundColor: AppColors.black,
         body: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
