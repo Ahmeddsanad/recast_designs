@@ -3,7 +3,7 @@
 # Recast Designs
 
 <!-- App Icon -->
-<img src="assets/app/RECAST_DESIGNS.png" alt="Recast Designs App Icon" width="120" height="120" style="border-radius: 24px;" />
+<img src="assets/app/RECAST_DESIGNS.png" alt="Recast Designs App Icon" width="32" height="32" style="border-radius: 24px;" />
 
 ### A premium Flutter restaurant UI experience
 
